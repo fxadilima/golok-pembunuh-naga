@@ -35,7 +35,7 @@ export default function Sidebar() {
                     alt="Ki Son-yeo arrived in Kaifeng, 1328" 
                     style="width:100%" />
                 <div class="card-header">
-                    <h5>Kaifeng, 1328</h5>
+                    <h5>Goryeo, 1320</h5>
                 </div>
                 <div class="card-body">
                     <p><em>"Be like water, Shengniang. When blocked, it finds a way. When compressed, it breaks kingdoms."</em></p>
