@@ -1,0 +1,52 @@
+
+# Notes
+
+Kita akan mencoba membuat sebuah `Component` di dalam module ini juga.
+Komponen itu adalah `ImageCards`.
+
+Back [Home](/)
+
+---
+
+## Layout
+
+```tsx
+import { define } from "../../utils.ts";
+
+export default define.page(function App({ Component }) {
+    return (
+        <html lang="en">
+            <head>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <title>Notes</title>
+                <meta name="author" content="FX. Adi Lima" />
+                <meta name="description" content="Dokumentasi penyusunan cerita Tanah Perjanjian Di Ufuk Barat" />
+                <link rel="stylesheet" href="https://w3schools.com/w3css/5/w3.css" />
+                <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css" />
+                <script src="https://kit.fontawesome.com/acda0af544.js" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="/styles/github-dark-dimmed.css" />
+            </head>
+            <body class="w3-theme-l1">
+                <Component />
+            </body>
+        </html>
+    );
+});
+```
+
+Lalu di `routes/notes/index.tsx` kita membuat ini:
+
+```tsx
+export default define.page(function Home(_ctx) {
+    return (
+        <>
+            <main class="w3-main w3-container">
+                <div class="w3-content w3-row-padding">
+                    <HomePage />
+                </div>
+            </main>
+        </>
+    );
+});
+```

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <title>Stories | Tanah Perjanjian Di Ufuk Barat</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        </head>
+    <body>
+
+        <header class="container-fluid my-5">
+            <img src="/images/banners/eksodus-dari-kaifeng-1360.jpg"
+                alt="Eksodus"
+                style="width:100%"
+            />
+        </header>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="fas fa-home"></i> 武俠</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pustaka</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sejarah</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Karakter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>Xiao Zhao</h2>
+            <h5>Alamut, 1355</h5>
+        <div class="card">
+            <img src="/images/medium/alamut-1355.jpg"
+                alt="Xiao Zhao"
+                style="width:100%" 
+                class="card-img-top rounded"/>
+        </div>
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        <h3 class="mt-4">Revisi Book IV</h3>
+        <p>Buku ini sedang mengalami revisi.</p>
+        <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Sinopsis</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Progress revisi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Baca blogs mengenai ini</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Edit</a>
+            </li>
+        </ul>
+        <hr class="d-sm-none">
+        </div>
+        <div class="col-sm-8">
+        <h2>Book IV</h2>
+        <h4>Part 5</h4>
+        <h5>Sichuan, April 1360</h5>
+        <div class="card">
+            <img src="/images/banners/banner-highlight-1.jpg" alt="Highlight Photo" style="width:100%" class="card-img-top"/>
+            <div class="card-body">
+                <p>Dalam hati sebenarnya Ming Yuzhen kurang menyukai Basalawarmi, yang memusuhi keluarga Kerajaan Dali dan terus menekan mereka. Tetapi karena menghormati Zhang Wuji dan Ah Xiu, ia tidak mengatakan hal ini. Bagaimana pun juga kekuatan militer Basalawarmi pasti akan membuat Chen Youliang berpikir ribuan kali sebelum menyerang Sichuan.</p>
+                <p>Dari Longshu, Zhang Wuji ingin mengunjungi Chongqing, dan mereka mampir di Nanchong yang letaknya sekitar dua ratus <em>li</em> dari situ. Kota itu sebelumnya adalah bagian dari Negeri Ba di zaman kuno, sebelum ditaklukkan oleh Kerajaan Qin, sekitar tahun 316 SM, ketika Qin secara resmi mengumumkan wilayah mereka menjadi sebuah kerajaan, dengan Ying Si sebagai Raja Huiwen. Saat itu Ying Si mengeksekusi seorang legalis terkenal, yang juga seorang reformator bagi bangsa Qin, Shang Yang.</p>
+            </div>
+            <footer class="card-footer text-center">
+                <div class="btn-group">
+                    <button type="button" 
+                        class="btn btn-primary"
+                        onclick="artikelSejarah('/history/kerajaan-ba/qin', 'wadah-artikel')">Sejarah</button>
+                    <a href="#" class="btn btn-secondary">Naskah Asli</a>
+                    <a href="#" class="btn btn-secondary">Revisi</a>
+                    <button type="button"
+                        class="btn btn-warning"
+                        onclick="document.getElementById('wadah-artikel').innerHTML=''">Close Artikel</button>
+                </div>
+            </footer>
+        </div>
+        <div id="wadah-artikel" class="container pt-2"></div>
+
+        <h2 class="mt-5">TITLE HEADING</h2>
+        <h5>Title description, Sep 2, 2020</h5>
+        <div class="fakeimg">Fake Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+    </div>
+</div>
+
+
+    </body>
+    <script src="/stories/stories.js"></script>
+</html>

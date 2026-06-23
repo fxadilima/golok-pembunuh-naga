@@ -14,4 +14,9 @@ export default defineConfig({
       mdxExtensions: [ ".mdx" ],
     }),
   ],
+  esbuild: {
+      // Memastikan Esbuild (di balik layar Vite) mengonversi JSX dengan benar
+      jsxFactory: "h",
+      jsxFragment: "Fragment",
+    },
 });
