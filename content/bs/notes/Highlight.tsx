@@ -5,6 +5,7 @@ export default function Highlight() {
             <div class="card-header">
                 <h2>NOTES</h2>
                 <h5>Songshan, 1355: Alpha and Omega</h5>
+                <img src="/images/notes/menuju-wudang.jpg" alt="Menuju Wudang, 1355" style="width:100%" class="rounded" />
             </div>
             <div class="card-body">
                 <p>The dust of the fierce battle against the Yuan Dynasty army has finally settled, and the bloody conflict of the Wulin world over the Golden Lion, Xie Xun, has come to a halting end. Yet, for Zhang Wuji, the peace is short-lived.</p>

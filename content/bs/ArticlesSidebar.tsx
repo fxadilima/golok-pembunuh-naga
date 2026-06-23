@@ -30,15 +30,22 @@ export default function Sidebar() {
     return (
         <div class="col-sm-4">
             <div class="card my-3">
-                <img class="card-img-top" src="/images/kaifeng.jpg" alt="Me" style="width:100%" />
+                <img class="card-img-top" 
+                    src="/images/banners/book1-cover.jpg" 
+                    alt="Ki Son-yeo arrived in Kaifeng, 1328" 
+                    style="width:100%" />
                 <div class="card-header">
-                    <h3>Kaifeng, 1357</h3>
+                    <h5>Kaifeng, 1328</h5>
                 </div>
                 <div class="card-body">
-                    <p>Cerita tentang Qi Shengniang di Kaifeng 1357?</p>
+                    <p><em>"Be like water, Shengniang. When blocked, it finds a way. When compressed, it breaks kingdoms."</em></p>
+                    <p>Haengju, 1320. Inside a peaceful courtyard in the southern valleys of Goryeo, five-year-old Ki Son-yeo—known to her master as Shengniang, the 'Holy Maiden'—is taught the art of survival. Under the guidance of a legendary former elder of the Beggars' Sect, she learns that true strength does not lie in brute force, but in Wu Wei: the art of effortless action, moving like water around stone.</p>
+                    <p>She thinks she is merely learning how to outsmart local bullies and master the steps of qinggong. She does not yet know that she is the hidden dragon of Goryeo.</p>
+                    <p>But as the Emperor of the Great Yuan Dynasty suddenly falls, a tremor shakes the foundations of the world. Tyrants will rise, empires will fracture, and the quiet girl who learned to flow like a river must now prepare to steer the tides of history.</p>
+                    <p>The saga begins. The Dragon awaits.</p>
                 </div>
                 <div class="card-footer">
-                    <h4>Footer</h4>
+                    <h6>Footer</h6>
                 </div>
             </div>
             <Pills />

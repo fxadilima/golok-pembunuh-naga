@@ -3,8 +3,8 @@ export default function Highlight() {
     return (
         <div class="card my-3">
             <div class="card-header">
-                <h2>STORIES</h2>
-                <h5>Title description, June 23, 2026</h5>
+                <h2>GUARDING THE EMPEROR</h2>
+                <h5>Edited, June 23, 2026</h5>
             </div>
             <div class="card-body">
                 <p>Sample text...</p>
